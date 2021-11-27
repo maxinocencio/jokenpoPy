@@ -1,7 +1,6 @@
 #Jokenpo
 import random
 
-
 try:
     escolha = int(input('1 = pedra | 2 = papel | 3 = tesoura\nescolha: '))
     
@@ -43,11 +42,6 @@ try:
         
     else:
         print('Digite apenas numeros entre 1 e 3!')
-
+        
 except:
     print('Digite apenas numeros entre 1 e 3!')
-
-
-
-
-    
